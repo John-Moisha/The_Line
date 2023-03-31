@@ -1,0 +1,39 @@
+@media only screen and (max-width: 990px) {
+  .footer-magnet1{
+    position:absolute;
+    right:16px;
+    bottom:0px;
+    width: calc(100% - 33px);
+  }
+}
+
+@media only screen and  (min-width: 991px) {
+    .footer-magnet1{
+        position:absolute;
+        right:16px;
+        bottom:0px;
+        width: calc(100% - 294px);
+  }
+}
+
+
+.trans_doc {
+    border: 2px solid #fff;
+
+    overflow: hidden
+}
+
+.trans_doc img {
+
+    transition: all 2s ease-in-out
+}
+
+.trans_doc:hover img {
+    transform: scale(2, 2);
+    cursor: pointer
+}
+
+ul.errorlist{
+ color:red;
+ list-style: none;
+}

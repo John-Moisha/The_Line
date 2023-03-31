@@ -1,0 +1,24 @@
+{% extends "layouts/base.html" %}
+
+{% load static %}
+
+
+
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+<div class="row">
+        <div class="col-4">
+            {{ obj }}- {{ object }}
+            --{{ sum_out }}
+            ---{{ sum_in }}
+
+        </div>
+
+</div>
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}
